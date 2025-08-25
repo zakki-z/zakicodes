@@ -44,7 +44,7 @@ export function AboutContent() {
           <CardHeader className="relative z-10 flex flex-col items-center justify-center gap-4 pt-8 pb-2">
             <div className="relative w-48 h-48 overflow-hidden border-4 border-primary shadow-xl bg-background">
               <Image
-                  src="/img/image.jpg"
+                  src="/img/IMG_8565.jpg"
                   alt={`Zakariae Azhari's avatar`}
                   width={192}
                   height={192}
