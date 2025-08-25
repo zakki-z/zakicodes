@@ -11,7 +11,7 @@ import {
     Linkedin,
     Globe,
     MessageCircle,
-    ExternalLink
+    ExternalLink, Badge
 } from 'lucide-react';
 import Link from 'next/link';
 
@@ -51,12 +51,19 @@ export default function ContactPageComponent() {
             <div className="container mx-auto px-4 py-12 space-y-12">
 
                 {/* Header */}
+                {/* Header */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                     className="text-center space-y-4"
                 >
+                    <div className="flex justify-center mb-6">
+                        <Badge className="bg-primary/5 text-primary border-primary/20 border inline-flex items-center">
+                            <MessageCircle className="mr-1 h-3 w-3" />
+                            Contact
+                        </Badge>
+                    </div>
                     <h1 className="text-4xl font-bold text-foreground">Get In Touch</h1>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                         I&apos;m always open to discussing new opportunities, collaborating on projects,
