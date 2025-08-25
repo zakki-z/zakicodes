@@ -23,26 +23,10 @@ export function ProjectsHeader() {
           </span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          A collection of projects that showcase my skills in full-stack development, 
-          machine learning, and open source contributions. Each project represents 
+          A collection of projects that showcase my skills in solving real world problems, by developing full-stack applications, and
+          integrating machine learning tools. Each project represents
           a journey of learning and innovation.
         </p>
-      </motion.div>
-      
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.2 }}
-        className="flex items-center justify-center gap-4 mt-8"
-      >
-        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-          <Github className="h-4 w-4" />
-          <span>Fetched from GitHub API</span>
-        </div>
-        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-          <Sparkles className="h-4 w-4" />
-          <span>Updated in real-time</span>
-        </div>
       </motion.div>
     </div>
   );

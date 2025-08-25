@@ -56,15 +56,15 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  siteName: 'Muhammad Fiaz',
-  domain: 'muhammadfiaz.com',
-  author: 'Muhammad Fiaz',
+  siteName: 'Zakariae Azhari',
+  domain: 'zakicodes,engineer',
+  author: 'Zakariae Azhari',
   description: 'Full Stack developer creating useful & delightful web experiences. Exploring ML & AI.',
   about:
     'I am a Full Stack developer who loves creating new things. I spend my spare time building free apps & tools, and I am currently diving into Machine Learning & AI to expand my problem‑solving toolkit. Always open to collaboration & new challenges.',
     author_img: 'https://avatars.githubusercontent.com/u/75434191?v=4',
     keywords: [
-    'Muhammad Fiaz',
+    'Zakariae Azhari',
     'Full Stack Developer',
     'Portfolio',
     'Next.js',
@@ -75,8 +75,8 @@ export const siteConfig: SiteConfig = {
     'Machine Learning',
     'AI'
   ],
-  ogImage: '/og.png',
-  twitterHandle: '@muhammadfiaz_',
+  ogImage: '',
+  twitterHandle: '',
 
   theme: {
     default: 'dark',
@@ -84,33 +84,30 @@ export const siteConfig: SiteConfig = {
   },
   links: {
     website: 'https://muhammadfiaz.com',
-    github: 'https://github.com/muhammad-fiaz',
-    linkedin: 'https://www.linkedin.com/feed/',
-    tips: 'https://pay.muhammadfiaz.com',
-    email: 'mailto:contact@muhammadfiaz.com',
+    github: 'https://github.com/zakki-z',
+    linkedin: 'https://linkedin.com/in/zakariaazhari',
+    tips: 'https://zakicodes.engineer',
+    email: 'mailto:zakariaeazhari@proton.me',
   },
   social: [
-    { label: 'GitHub', url: 'https://github.com/muhammad-fiaz', icon: 'github' },
-    { label: 'LinkedIn', url: 'https://www.linkedin.com/feed/', icon: 'linkedin' },
-    { label: 'Website', url: 'https://muhammadfiaz.com', icon: 'globe' },
-    { label: 'Tip', url: 'https://pay.muhammadfiaz.com', icon: 'coffee' },
+    { label: 'GitHub', url: 'https://github.com/zakki-z', icon: 'github' },
+    { label: 'LinkedIn', url: 'https://linkedin.com/in/zakariaazhari', icon: 'linkedin' },
   ],
   navigation: [
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
     { label: 'Projects', href: '/projects' },
-    { label: 'Posts', href: '/posts' },
-    { label: 'Chat', href: '/chat' },
+    { label: 'resume', href: '/resume' },
     { label: 'Contact', href: '/contact' }
   ],
 
   
   seo: {
-    title: 'Muhammad Fiaz',
-    description: 'Full Stack developer creating useful & delightful web experiences. Exploring ML & AI.',
+    title: 'Zakariae Azhari',
+    description: 'Backend developer creating useful & delightful web experiences. Exploring ML & AI.',
     keywords: [
-      'Muhammad Fiaz',
-      'Full Stack Developer',
+      'Zakariae Azhari',
+      'Backend Developer',
       'Portfolio',
       'Next.js',
       'TypeScript',
@@ -120,9 +117,9 @@ export const siteConfig: SiteConfig = {
       'Machine Learning',
       'AI'
     ],
-    canonical: 'https://muhammadfiaz.com',
+    canonical: 'https://zakicodes.engineer',
     image: '/og.png',
-    imageAlt: "Muhammad Fiaz - Full Stack Developer",
+    imageAlt: "Zakariae Azhari - Backend Developer",
     locale: 'en-US',
     type: 'website',
     twitterCard: 'summary_large_image',
