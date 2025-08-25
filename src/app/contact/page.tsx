@@ -1,7 +1,7 @@
 import React from 'react';
 import { buildMetadata, siteConfig } from '@/config/site.config';
-import ContactCard from '@/components/sections/contact-card';
-import ContactInfo from "@/app/contact/ContactInfo";
+import ContactPageComponent from "@/components/sections/contactPageComponent";
+
 
 export const metadata = buildMetadata({
   title: `Contact | ${siteConfig.siteName}`,
@@ -9,9 +9,5 @@ export const metadata = buildMetadata({
 });
 
 export default function ContactPage() {
-  return (
-    <main className="min-h-screen flex items-center justify-center pt-8 pb-12 px-4 sm:px-6 lg:px-8">
-      <ContactInfo />
-    </main>
-  );
+  return <ContactPageComponent />;
 }
