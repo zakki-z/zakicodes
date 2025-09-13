@@ -23,8 +23,7 @@ export function AboutHeader() {
           </span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Software engineering and management student passionate about backend development with solid ex-
-          perience in modern technologies and machine learning.
+          Software engineering and management student passionate about backend development with solid experience in modern technologies and machine learning.
         </p>
       </motion.div>
     </div>

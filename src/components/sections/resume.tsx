@@ -54,7 +54,7 @@ const experience = [
         company: "SQLI",
         position: "Software Developer",
         location: "Oujda, Morocco",
-        period: "Sep 2024 – Present",
+        period: "Sep 2025 – Present",
         achievements: []
     }
 ];
