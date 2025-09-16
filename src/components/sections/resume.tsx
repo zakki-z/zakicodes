@@ -52,7 +52,7 @@ const experience = [
     },
     {
         company: "SQLI",
-        position: "Software Developer",
+        position: "Software Developer Intern",
         location: "Oujda, Morocco",
         period: "Sep 2025 – Present",
         achievements: []
